@@ -1,8 +1,10 @@
-import { View } from "@tarojs/components";
+import { View } from '@tarojs/components';
+import React from 'react';
 
-export interface tabbarProps {}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface TabbarProps {}
 
-export const tabbar = (props: tabbarProps) => {
+export const tabbar = (props: TabbarProps) => {
   const {} = props;
 
   return <View></View>;

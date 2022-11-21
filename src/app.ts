@@ -1,5 +1,5 @@
-import { Component, PropsWithChildren } from "react";
-import "windi.css";
+import { Component, PropsWithChildren } from 'react';
+import 'windi.css';
 
 class App extends Component<PropsWithChildren> {
   componentDidMount() {}

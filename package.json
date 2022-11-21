@@ -70,7 +70,7 @@
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.4.18",
-    "postcss-loader":"^5.2.0",
+    "postcss-loader": "^5.2.0",
     "postcss-cli": "^10.0.0",
     "react-refresh": "^0.11.0",
     "stylelint": "^14.4.0",
@@ -78,6 +78,8 @@
     "taro-plugin-tailwind": "^1.2.8",
     "taro-tailwind": "^1.0.2",
     "typescript": "^4.1.0",
-    "webpack": "5.69.0"
+    "twin.macro": "3.0.0",
+    "webpack": "5.69.0",
+    "@types/styled-components": "^5.1.25"
   }
 }

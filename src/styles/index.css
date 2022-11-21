@@ -1,0 +1,241 @@
+@import url('tailwind.css');
+
+.cartIn-enter {
+    top: -56px;
+}
+.cartIn-enter-active {
+    top: 0px;
+    transition: top 5000ms;
+}
+.cartIn-enter-done {
+    top: 0px;
+}
+.cartIn-exit {
+    top: 0px;
+}
+.cartIn-exit-active {
+    top: -56px;
+    transition: top 5000ms;
+}
+.cartIn-exit-done {
+    top: -56px;
+}
+
+.drawer-ltr-enter {
+    left: -100vw;
+}
+
+.drawer-ltr-enter-active {
+    left: 0;
+    transition: left 500ms;
+}
+
+.drawer-ltr-enter-done {
+    left: 0;
+}
+
+.drawer-ltr-exit {
+    left: 0;
+}
+
+.drawer-ltr-exit-active {
+    left: -100vw;
+    transition: left 500ms;
+}
+
+.drawer-ltr-exit-done {
+    left: -100vw;
+}
+
+.drawer-b-enter,
+.drawer-b-appear {
+    bottom: -100vh;
+}
+
+.drawer-b-enter-active,
+.drawer-b-appear-active {
+    bottom: 0;
+    transition: bottom 300ms;
+}
+
+.drawer-b-enter-done,
+.drawer-b-appear-done {
+    bottom: 0;
+}
+
+.drawer-b-exit {
+    bottom: 0;
+}
+
+.drawer-b-exit-active {
+    bottom: -100vh;
+    transition: bottom 300ms;
+}
+
+.drawer-b-exit-done {
+    bottom: -100vh;
+}
+
+.toast-appear,
+.toast-enter {
+    height: 0px;
+    opacity: 0;
+    transform: scale(0.9);
+}
+.toast-appear-done,
+.toast-enter-done {
+    height: 5rem;
+    padding-bottom: 1rem;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.toast-appear-active,
+.toast-enter-active {
+    height: 5rem;
+    opacity: 1;
+    padding-bottom: 1rem;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.toast-exit {
+    height: 5rem;
+    opacity: 1;
+}
+.toast-exit-active {
+    height: 0px;
+    padding: 0px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.alert-appear,
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.alert-appear-active,
+.alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 200ms, transform 200ms;
+}
+.alert-exit {
+    opacity: 1;
+}
+.alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 200ms, transform 200ms;
+}
+
+.overdelay-appear {
+    opacity: 0;
+}
+.overdelay-appear-active {
+    opacity: 1;
+    transition: opacity 200ms, transform 200ms;
+}
+.overdelay-exit {
+    opacity: 1;
+}
+.overdelay-exit-active {
+    opacity: 0;
+    transition: opacity 200ms, transform 200ms;
+}
+
+.fade-enter-done,
+.fade-appear-active,
+.fade-exit-active {
+    transition: transform 0.2s, opacity 0.25s ease-in-out;
+}
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    transform: scale(0.97);
+}
+.fade {
+    position: absolute;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: scale(1.03);
+}
+
+.slide-left-enter-done,
+.slide-left-appear-active,
+.slide-left-exit-active {
+    transition: transform 0.25s, opacity 0.25s ease-in-out;
+}
+.slide-left-appear,
+.slide-left-enter {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.slide-left {
+    position: absolute;
+}
+
+.slide-left-exit-active {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.slide-right-enter-done,
+.slide-right-appear-active,
+.slide-right-exit-active {
+    transition: transform 0.25s, opacity 0.25s ease-in-out;
+}
+.slide-right-appear,
+.slide-right-enter {
+    opacity: 0;
+    transform: translateX(30px);
+}
+.slide-right {
+    position: absolute;
+}
+
+.slide-right-exit-active {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.translateY-enter-done,
+.translateY-appear-active,
+.translateY-exit-active {
+    transition: transform 0.3s, opacity 0.3s ease-in-out;
+}
+.translateY-appear,
+.translateY-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.translateY-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.delete-list-appear-done,
+.delete-list-enter-done {
+    padding-bottom: 1rem;
+    opacity: 1;
+    transition: opacity 600ms, transform 600ms, height 600ms;
+}
+.delete-list-appear-active,
+.delete-list-enter-active {
+    opacity: 1;
+    padding-bottom: 1rem;
+}
+.delete-list-exit {
+    opacity: 1;
+}
+.delete-list-exit-active {
+    height: 0px !important;
+    padding: 0px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 600ms, transform 600ms, height 600ms;
+}
